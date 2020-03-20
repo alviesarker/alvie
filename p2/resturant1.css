@@ -1,0 +1,191 @@
+
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+body {
+	margin: 0;
+	padding: 0;
+
+	text-align: justify;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #666666;
+	background-color:#FFFFFF; 
+	 background: #FFFFFF url(background2.png) repeat-y;
+	 background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+    background-size: 1024px;
+}
+*
+{
+  margin: 0 auto 0 auto;
+ text-align:center;}
+
+#header {
+	position:relative;
+	width: 680px;
+	height:99px;
+	margin-left:350px;
+	margin-right:0px;
+	
+}
+
+#page
+{
+  margin: 0 auto 0 auto; 
+  display: table; 
+  height: 100%;  
+  position: relative; 
+  overflow: hidden; 
+
+  width: 730px;
+}
+
+
+.title
+{
+position:relative;
+left:30px;
+top:22px;
+text-align:left;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:32px;
+font-weight:bold;
+color:#252F33;
+}
+
+.subText
+{
+position:relative;
+left:62px;
+top:26px;
+text-align:left;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:12px;
+font-weight:bold;
+color:#CEEAEE;
+}
+
+
+.articleTitle
+{
+text-align:left;
+padding-left:25px;
+padding-top:10px;
+padding-bottom:10px;
+color: #3C4969;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:24px;
+font-weight:bold;
+
+}
+
+.articleContent
+{
+width:auto;
+position:relative;
+padding-left:25px;
+color:#201214;
+text-align:left;
+font-family:Arial, Helvetica, sans-serif;
+line-height:27px;
+}
+
+.rightLinks
+{
+width: 102px;
+font-size:11px;
+font-weight:bold;
+line-height:21px;
+height:auto;
+margin-right:-3px;
+background-image:url(links_branch1.png);
+background-repeat:no-repeat;
+text-align:right;
+float:right;
+}
+
+.rightLinks a:hover
+{
+color:#667765;
+}
+
+
+
+.rightLinks .linkTitle
+{
+font-size:13px;
+font-weight:bold;
+margin-top:27px;
+margin-bottom:32px;
+margin-right:5px;
+}
+
+
+#bar
+{
+	position:relative;
+	width: 1024px;
+	height:57px;
+	margin-left:20px;
+	margin-right:20px;
+	background: url(bar.png);
+
+}
+
+.menuLink
+{
+	height:36px;
+	width: 120px;
+	text-align:center;
+	float:left;
+	font-family:Geneva, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#FFFFFF;
+	padding-top:19px;
+	padding-left: 100px;
+}
+
+.menuLink:hover
+{
+	background: url(bar2.png) repeat-x;
+}
+
+a
+{
+text-decoration:none;
+color:#FFFFFF;
+}
+
+#pageContent
+{
+width: 680px;
+height:500px;
+}
+
+#footer {
+
+	width: 1024px;
+	height:30px;
+	background: url(bar.png);
+text-align:center;
+font-size:10px;
+color:#777765;
+padding-top:34px;
+}
+
+#footer a
+{
+font-size:20px;
+color:#667765;
+}
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
