@@ -1,0 +1,299 @@
+	body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+		html {
+    background-color: white;
+}
+.headr{
+	max-width:670;
+	width:60%;
+	height:243px;
+	background-color:#1F1F1F;
+	margin:0 auto;
+	box-sizing:border-box;
+	padding-left:53px;
+	padding-right:53px;
+	padding-top:13px;
+	padding-bottom:10px;
+	
+}
+
+body{
+	margin:0;
+}
+
+
+.headr p{
+	color:white;
+font-family:'myriad';
+	text-align:center;
+	font-size:50px;
+     margin:0;
+    margin-top:10px;
+	padding-top:60px;
+	padding-bottom:70px;
+	
+    border: 3px solid #8F8F8F;
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+	
+}
+.nav ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	padding-top:30px;
+	padding-bottom:30px;
+	background-color:black;
+	box-sizing:border-box;
+	padding-left:170px;
+}
+.nav ul li{
+	display: inline-block;
+	
+}
+.nav ul li:nth-child(1){
+	padding-right:10%;
+
+}
+.nav .actve{
+	color: grey;
+}
+.nav ul li:nth-child(2){
+	padding-right:40%;
+}
+.nav ul li:nth-child(4){
+	padding-left:10%;
+}
+.nav ul li a:hover{
+	color:yellow;
+	transition:0.4s;
+	cursor:pointer;
+	border-bottom:2px solid yellow;
+	
+}
+.nav ul li a{
+	color:white;
+	text-transform:uppercase;
+	font-weight:600;
+	font-family:sans-serif;
+	font-size:20px;
+	border-bottom:2px solid black;
+	transition:0.4s;
+	
+}
+
+.main .Secone{
+	float:left;
+	width:50%;
+	height:55px;
+	padding-top:15px;
+	box-sizing:border-box;
+}
+.Secone h2{
+	padding-left:170px;
+	margin:0;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.Sectwo h2{
+	padding-left:220px;
+	margin:0;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+.main .Sectwo{
+		box-sizing:border-box;
+	padding-top:15px;
+	float:left;
+	width:50%;
+	height:55px;
+	
+}
+.main{
+	background-color:black;
+	height:55px;
+	margin-top:27px;
+}
+.main h2{
+	color:white;
+}
+.clr{
+	clear:both;
+}
+.main .mainbdy{
+	height:auto;
+	background-color: #666666;
+}
+
+.main tr td{
+	width:50%;
+	box-sizing:border-box;
+}
+.main .lft p{
+	font-size:18px;
+	color:white;
+	font-family: sans-serif;
+	padding-top:20px;
+	padding-left:50px;
+	
+}
+.lft{
+
+	float:left;
+	width:50%;
+}
+.main .lfttwo{
+	float:left;
+	width:50%;
+} 
+.main  .lfttwo p{
+	font-size:18px;
+	color:white;
+	font-family: sans-serif;
+	padding-top:14px;
+	padding-left:164px;
+	
+} p{
+	font-size:18px;
+	color:white;
+	font-family: sans-serif;
+	padding-top:64px;
+	padding-left:164px;
+	
+}
+.main .lfttwo .rgt{
+	padding-left:215px;
+	line-height:27px;
+}
+.frs{
+	background-color:black;
+	box-sizing:border-box;
+	
+}
+.frs h2{
+	padding-left:270px;
+	height:55px;
+	box-sizing:border-box;
+	padding-top:15px;
+}
+
+p{text-transform:uppercase;}
+.brger{
+	position:absolute;
+	top:230px;
+	left:49%;
+	transform: translate(-50%);
+	height:1000px;
+	width:480px;
+
+
+
+}
+.footer{
+	background-color:black;
+	margin-top:29px;
+	padding-left:97px;
+	padding-top:30px;
+	position: relative;
+	padding-bottom: :30px;
+}
+.footer img{
+	margin-left: 20px;
+	
+}
+.cpyright{
+	display:inline-block;
+	text-align:center;
+	margin:0 auto;
+	width:70%;
+position:relative;
+	top:-20px;
+}
+.cpyright a{
+	color:white;
+}
+
+/*this is media curey*/
+@media only screen and (max-width: 1172px) {
+	.main table tr td p{
+	font-size:27px !important;
+	}
+}
+
+@media only screen and (max-width: 1108px) {
+  .headr p{
+	font-size:45px !important;
+	}
+	.nav ul li:nth-child(2){
+		padding-right:40% !important;
+	}
+	.nav ul li:nth-child(1){
+	padding-right:5% !important;
+	}	
+	.nav ul li:nth-child(4){
+	padding-left:7% !important;
+	}
+	.main table tr td p{
+	font-size:25px !important;
+	}
+
+}
+
+@media only screen and (max-width: 1025px) {
+  .headr p{
+	font-size:40px !important;
+	
+}
+	.nav ul li a{
+	font-weight:600 !important;
+	font-size:18px !important;	
+}
+}
+
+@media only screen and (max-width: 993px) {
+  	.nav ul{
+	padding-left:165px !important;
+}
+.main table tr td p{
+	font-size:23px !important;
+	}
+	
+}
+@media only screen and (max-width: 943px) {
+  .headr p{
+	font-size:37px !important;	
+}
+	.nav ul li a{
+		font-weight:600 !important;
+		font-size:16px !important;	
+}
+}
+
+
+
+@media only screen and (max-width: 894px) {
+  .headr p{
+	font-size:33px !important;
+	
+}
+.main table tr td p{
+	font-size:21px !important;
+	}
+}
+
+@media only screen and (max-width: 828px) {
+  .headr p{
+	font-size:30px !important;
+	
+}
+.main table tr td p{
+	font-size:20px !important;
+	}
+}
