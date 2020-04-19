@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Alvie Sarker" />
+    <meta name="description" content="alvie sarker game portfolio webiste" />
+    <!-- font awsome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <!-- glider slider -->
+    <link rel="stylesheet" type="text/css" href="./css/glider.min.css" />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./css/styleforcontact.css" />
+
+    <title>Alvie Sarker Game</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <div class="nav-element active">
+            <a href="index.html">
+              <img
+                src="./icons/home.png"
+                alt="home icon"
+                class="nav-image home active"
+              />
+            </a>
+          </div>
+          <div class="nav-element active">
+            <a href="game.html">
+              <img
+                src="./icons/gallery.png"
+                alt="home icon"
+                class="nav-image gallery active"
+              />
+            </a>
+          </div>
+          <div class="nav-element active">
+            <a href="contact.html">
+              <img
+                src="./icons/contact.png"
+                alt="home icon"
+                class="nav-image contact active"
+              />
+            </a>
+          </div>
+        </nav>
+        <div class="under-nav-menu">
+          <div class="under-nav-1 active-under-b">
+            <a href="slider.html">
+              <img
+                src="./icons/brush.png"
+                alt="brush"
+                class="under-nav-image brush"
+              />
+            </a>
+          </div>
+          <div class="under-nav-2 hover-ee">
+            <a href="game.html">
+              <img
+                src="./icons/game.png"
+                alt="brush"
+                class="under-nav-image brush hover-ee-i"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="slider-section">
+      <div class="slider-row">
+        <div class="glider-contain">
+          <div class="glider">
+            <div class="slider-data">
+              <div class="slider-img">
+                <img src="./images/s-image-1.png" alt="slider image" />
+              </div>
+              <div class="slider-content">
+                <h4>"HAZEL EYES"</h4>
+                <p>
+                  THIS WAS A DIGITAL<br />
+                  PAINTING I CREATED<br />
+                  FOR MY FRIEND <br />
+                  MICKEY HOSSAIN
+                </p>
+              </div>
+            </div>
+
+            <div>
+              <div class="slider-data">
+                <div class="slider-img">
+                  <img src="./images/s-image-2.png" alt="slider image" />
+                </div>
+                <div class="slider-content">
+                  <h4>"BENGALI BRIDE"</h4>
+                  <p>
+                    THIS WAS A DIGITAL<br />
+                    PAINTING I CREATED<br />
+                    OF MY MOTHER
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="slider-data">
+                <div class="slider-img">
+                  <img src="./images/s-image-3.png" alt="slider image" />
+                </div>
+                <div class="slider-content">
+                  <h4>"THE MONIKA"</h4>
+                  <p>
+                    THIS WAS A DIGITAL<br />
+                    PAINTING I CREATED<br />
+                    OF MY OLDER SISTER
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="slider-data">
+                <div class="slider-img">
+                  <img src="./images/s-image-4.png" alt="slider image" />
+                </div>
+                <div class="slider-content">
+                  <h4>"HAZEL EYES"</h4>
+                  <p>
+                    THIS WAS A DIGITAL<br />
+                    PAINTING I CREATED<br />
+                    OF MY OTHER OLDER SISTER <br />
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button role="button" aria-label="Previous" class="glider-prev">
+            «
+          </button>
+          <button role="button" aria-label="Next" class="glider-next">»</button>
+
+          <!-- <div role="tablist" class="dots"></div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="white-circle"></div>
+        <span>GAME DEVELOPER/DIGITAL ARTIST/STUDENT</span>
+        <span>ALVIE SARKER COPYRIGHT 2020</span>
+      </div>
+    </footer>
+    <div class="blue-bar">
+      <img src="./images/background.png" alt="background image" />
+    </div>
+
+    <!-- slick slider js cdn -->
+    <script type="text/javascript" src="./js/glider.min.js"></script>
+
+    <!-- slider script -->
+    <script>
+      window.addEventListener("load", function () {
+        new Glider(document.querySelector(".glider"), {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          draggable: false,
+          dots: ".dots",
+          arrows: {
+            prev: ".glider-prev",
+            next: ".glider-next",
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
